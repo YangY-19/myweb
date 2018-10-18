@@ -1,0 +1,341 @@
+.body{
+  height: 1700px;
+}
+.introduce{
+   height: 1500px;
+}
+.aboutMe-logo-nav{
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto
+}
+.aboutMe-introduce{
+  height: 1640px;
+  padding: 20px;
+  box-sizing: border-box
+}
+.introduce-content{
+  width: 900px;
+  height: 1250px;
+  margin: 0 auto;
+}
+.introduceContent-title-box{
+  width: 900px;
+  margin: -60px auto;
+  margin-bottom: 20px
+}
+.resume{
+  width: 900px;
+  height: 1320px;
+  margin: 0 auto;
+  position: relative;
+}
+.awardsing-box{
+  position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -76px;
+    right: -182px;
+  display: none
+}
+.awardsing-box li {
+  display: none
+}
+.awardsing-box img{
+  width: 400px;
+  height: 400px;
+}
+.awardsing li {
+  width: 200px;
+  line-height: 40px
+}
+.resume-left{
+  width: 319px;
+  height: 100%;
+  background: #394a5a;
+  border:1px solid #263846;
+  float: left;
+}
+.resume-name-photo{
+  width: 100%;
+  height: 330px;
+  margin: 0 auto;
+  padding-top: 53px
+}
+.resume-photo{
+  width: 178px;
+  height: 178px;
+  background: #ffffff;
+  border-radius:50% ;
+  margin: auto;
+}
+.resume-photo img{
+  width: 158px;
+  height: 158px;
+  background: #ffffff;
+  margin: 10px;
+  border-radius:50% 
+}
+.resume-name{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  margin-top: 33px;
+}
+.resume-Position{
+  width: 100%;
+  height: 34px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 22px; 
+}
+.resume-baisc{
+   height: 349px;
+   width: 100%;
+}
+.big-title{
+  position: relative;
+  width: 292px;
+  height: 56px;
+  left: 40px;
+}
+.arrows{
+  position: relative;
+  height: 0px;
+  width: 0px;
+  border-top: 22px solid transparent;
+  border-right: 19px solid #b45254;
+  border-bottom: 22px solid transparent;
+}
+.physically{
+  width: 260px;
+  height: 44px;
+  position: absolute;
+  background: #b45254;
+  top: 0;
+  left: 19px;
+}
+.physically p{
+  color: #fff;
+  margin-left: 50px;
+  line-height: 44px;
+  font-size: 22px 
+}
+.tail-body{
+  width: 15px;
+  height: 43px;
+  position: absolute;
+  background: #b45254;
+  top: 0;
+  right: 0;
+  border-right: 1px solid #ad4342;
+  border-top: 1px solid #ad4342;
+}
+.tail-shadow{
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border-top: 0px solid transparent;
+  border-left: 13px solid #772d34;
+  border-bottom: 12px solid transparent;
+}
+.resume-baisc-content{
+  height: 220px;
+  color: #fff;
+  font-size: 18px;
+  margin:17px  0 0 64px ;
+  line-height: 32px
+}
+.contact-baisc{
+   height: 253px;
+   width: 100%;
+}
+.contact-baisc-content{
+  height: 180px;
+  color: #fff;
+  font-size: 18px;
+  margin:17px  0 0 64px ;
+  line-height: 32px
+}
+.arrows-green{
+ border-right: 19px solid  #c1c297
+}
+.physically-green{
+  background: #c1c297
+}
+.tail-body-green{
+  background: #c1c297;
+  border-right: 1px solid #babc8c;
+  border-top: 1px solid #babc8c;
+}
+.tail-shadow-green{
+  border-left: 13px solid #636839;
+}
+.skill-baisc{
+   height: 349px;
+   width: 100%;
+}
+.skill-baisc-content{
+  height: 180px;
+  color: #fff;
+  font-size: 18px;
+  margin:17px  0 0 64px ;
+  line-height: 32px
+}
+.arrows-yellow{
+ border-right: 19px solid  #e0b652
+}
+.physically-yellow{
+  background: #e0b652
+}
+.tail-body-yellow{
+  background: #e0b652;
+  border-right: 1px solid #e9c77f;
+  border-top: 1px solid #e9c77f;
+}
+.tail-shadow-yellow{
+  border-left: 13px solid #755b20;
+}
+.resume-right{
+  width: 579px;
+  height: 1322px;
+  float: left;
+}
+.resume-right-content{
+  width:483px;
+  height: 1025px;
+  margin-top: 100px;
+  margin-left: 70px
+}
+.introduce-box{
+  width:483px;
+  height: 300px;
+  padding: 0 20px 0 20px 
+}
+.introduce-title{
+  height: 40px;
+}
+.introduce-icon{
+  width: 40px;
+  height: 40px;
+  background: #394a5a;
+  border-radius: 50%;
+  float: left;
+}
+.introduce-icon img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.introduce-name{
+  float: left;
+  font-size: 26px;
+  color: #000;
+  line-height: 44px;
+  margin-left: 20px;
+}
+.introduce-wire{
+  width:444px;
+  height: 3px;
+  background:#2e2929;
+  margin: 20px 0;
+}
+.introduce-neirong{
+  width:415px;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 20px
+}
+.educationing-box{
+  height: 260px;
+}
+
+/* //手机网 */
+.productions-introduce{
+  width: 968px;
+  margin: 30px auto;
+}
+.productions-introduce .item{
+    border: 1px solid #354aa1;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 400px;
+    height: 100px;
+   float: left;
+   margin: 10px 10px 
+}
+.productions-introduce .item .excerpt-img{
+    float: left;
+    width: 220px;
+}
+.excerpt-content{
+  float: left;
+  margin-left: 10px;
+
+}
+.excerpt-title{
+  font-size: 22px;
+  text-align: center;
+  color: #354aa1;
+}
+.excerpt-message{
+  margin-top: 20px;
+}
+
+
+@media screen  and (max-width:960px) {
+
+ .introduce-content {
+    width: 332px;
+    height: 1250px;
+    margin: 0 auto;
+}
+   .introduceContent-title-box {
+    width: 193px;
+    margin: -60px auto;
+    margin-bottom: 20px;
+}
+   .resume {
+    width: 328px;
+    height: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.resume-right {
+    /* width: 534px; */
+    height: 1322px;
+    float: left;
+    margin-left: -108px;
+}
+.introduce-neirong {
+    width: 338px;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 20px;
+}
+.introduce-wire {
+    width: 365px;
+    height: 3px;
+    background: #2e2929;
+    margin: 20px 0;
+}
+
+.body-top {
+   height: 3113px;
+    width: 384px;
+
+}
+.aboutMe-introduce {
+    height: 2915px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+}

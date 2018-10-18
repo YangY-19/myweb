@@ -1,0 +1,670 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ----我的网站---- */
+.mian{
+  width: 100%;
+  margin: 0 auto;
+}
+/* ----头部header---- */
+.header{
+  width: 100%;
+  height: 0px;
+  margin: 0 auto;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.swiper-button-white{
+  width: 28px;
+  height: 22px;
+  opacity: .6;
+}
+.swiper-pagination, .swiper-pagination-white{
+  opacity: .4;
+}
+.head-prologue{
+  width: 366px;
+  height: 325px;
+  margin: auto;
+  position: absolute;
+  bottom: 90px;
+  z-index: 2;
+}
+.head-prologue > p{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+   font-family: MyriadPro
+}
+.readmore{
+  width: 182px;
+  height: 46px;
+  border: 1px #fff solid;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 46px;
+  box-sizing: border-box;
+  margin: 163px auto;
+}
+.readmore:hover{
+  border: 1px #beb494 solid;
+  border-radius: 8px;
+  color: #f0f0f0;
+}
+.readmore a{
+  color: #fff;
+}
+.readmore a:hover{
+  color: #beb494
+}
+
+.readmore-arrow{
+  width: 17px;
+  height: 10px;
+  margin: -80px auto;
+  
+}
+.readmoreAnimation{
+   animation: arrow 1s infinite;
+}
+@keyframes arrow{
+	 from { margin: -80px auto;}
+		 to {  margin: -70px auto;}
+}
+
+
+.readmore-arrow img{
+  width: 17px;
+  height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----主体body----- */
+.body{
+  width: 1920px;
+  min-height: 998px;
+  /* display: none; */
+  background: #ffffff;
+  position: relative;
+}
+.body-top{
+  
+  background: #ffffff;
+}
+
+.wire{
+  width: 100%;
+  height: 1px;;
+  background: #f2f2f2;
+  position: absolute;
+  top: 70px;
+  z-index: 3
+}
+.introduce{
+  width: 1200px;
+  margin: -30px auto;
+  padding: 20px;
+  box-sizing: border-box
+}
+.aboutMe-logo-nav{
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto
+}
+.author-logo{
+  float: left;
+  line-height: 70px;
+  font-family: MyriadPro;
+  margin-left: 50px;
+  font-size: 16px;
+  color: red;
+}
+.introduce-nav{
+  float: right;
+  margin-right: 45px;
+}
+.introduce-nav > ul > li{
+  float: left;
+  line-height: 70px;
+  font-family: MyriadPro;
+  margin-left: 50px;
+  font-size: 16px;
+  color: #3c3c3c;
+
+}
+.yellow{color: #beb494}
+.introduce-nav > ul > li > a:hover{color: #beb494}
+
+.introduceContent-title-box, .pageDown-box{
+  width: 1200px;
+  margin: 0 auto;
+}
+.introduceContent-title{
+  width: 200px;
+  height: 120px;
+  margin: 80px auto;
+}
+.choose-name{
+  font-size: 32px;
+  text-align: center;
+  line-height: 80px;
+  font-weight: 600
+}
+.choose-underline{
+  width: 70px;
+  height: 2px;
+  background: #000;
+  margin: 0 auto;
+
+}
+.choose-explain{
+  text-align: center;
+  font-size:12px;
+  margin-top: 30px
+}
+
+.introduceContent-classify{
+  width: 1200px;
+  display: flex;
+}
+.classify{
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  flex-grow:1;
+  margin-right: 140px;
+}
+.classify:last-child{margin-right: 0}
+
+.classify-icon{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border:1px solid #f0f0f0;
+  margin:  0 auto;
+}
+.classify:hover .classify-icon{
+   width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border:1px solid #e7cd56;
+  margin:  0 auto;
+}
+.classify:hover .classify-icon img{
+   width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+}
+.classify:hover .classify-title{
+   color: #f0ce34;
+}
+.classify-icon img{
+  width: 40px;
+  height: 40px;
+  margin: 15px 15px;
+}
+.classify-title{
+    font-size:18px;
+    line-height: 64px;
+    text-align: center ;
+}
+.classify-content{
+    font-size:13px;
+    line-height: 30px;
+    text-align: center 
+}
+.pageDown{
+  width: 182px;
+  height: 46px;
+  border: 1px #fff solid;
+  font-size: 16px;
+  text-align: center;
+  line-height: 46px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  background: #ada074
+}
+.pageDown:hover{
+  background: #fff;
+  border: 1px #ada074 solid;
+}
+.pageDown a{
+ color: #fff;
+}
+.pageDown:hover a{
+ color: #ada074
+}
+.hotWeb{
+  width: 100%;
+  margin: 0 auto;
+  min-height: 200px;
+  padding: 35px 20px;
+  box-sizing: border-box;
+  background: #f3f3f3
+}
+/* ----热门网站---- */
+.hotWeb-title{
+  margin-top: 30px
+}
+.hotWeb-name{
+  font-size: 32px;
+  text-align: center;
+  line-height: 80px;
+  font-weight: 600
+}
+.hotweb-bg{
+  height: 200px;
+}
+.hotWeb-underline{
+  width: 90px;
+  height: 2px;
+  background: #000;
+  margin: 0 auto;
+}
+.hotWeb-content{
+  width: 921px;
+  min-height: 430px;
+  margin: 30px auto;
+  
+}
+.hotWeb-item{
+  width: 287px;
+  height: 193px;
+  margin: 10px 10px;
+  float: left;
+}
+.hotweb-bg img{
+  width: 100%;
+  height:193px;
+}
+/* .hotWeb-item:hover{
+  border: 1px #000 solid;
+  box-sizing: border-box; */
+/* } */
+.hotWeb-item:hover img{
+  width: 275px;
+  height:181px;
+  margin: auto;
+}
+
+/* ----底部footer---- */
+.footer{
+  min-height:70px;
+  margin: 0 auto;
+  background: #ffffff;
+  /* display: none; */
+}
+.contact{
+  width: 900px;
+   min-height:660px;
+  margin:  0 auto;
+}
+.contact-title{
+  padding-top: 50px
+}
+
+.contact-name{
+  font-size: 32px;
+  text-align: center;
+  line-height: 80px;
+  font-weight: 600
+}
+.contact-underline{
+  width: 90px;
+  height: 2px;
+   background: #000;
+  margin: 0 auto;
+}
+/* ----留言---- */
+.contact-content{
+  width: 490px;
+  height: 428px;
+  padding-top: 100px;
+  float: left;
+}
+.contact-content p {
+  font-size: 18px ;
+  margin-bottom:16px;
+}
+.send-name-phone{
+  width: 550px
+}
+.send-content{
+  width: 50%;
+  height: 450px;
+
+}
+.send-name{
+  float: left;
+  font-size: 16px;
+}
+.send-name input {
+  width: 160px;
+  height: 35px;
+  border: none;
+  border-top:1px #000 solid;
+  background: #f8f7f7; 
+}
+.send-phone p{
+   margin-left: 60px
+}
+.send-phone input {
+  width: 160px;
+  height: 35px;
+  border: none;
+  border-top:1px #000 solid;
+  background: #f8f7f7; 
+  margin-left: 60px
+}
+.send-phone{
+  float: left;
+  font-size: 16px;
+}
+.send-phone{
+  font-size: 16px;
+}
+.send-message{
+  padding: 103px 0;
+}
+.message {
+  width: 380px;
+  height: 120px;
+  border: none;
+  border-top:1px #000 solid;
+  background: #f8f7f7; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+.send{
+   width: 70px;
+   height: 40px;
+   margin: 50px 0;
+}
+.send-button{
+   width: 70px;
+   height: 40px;
+   border: 1px #000 solid;
+   background: #ffffff;
+   line-height: 40px;
+   text-align: center;
+   font-weight: bold
+}
+/* ----QQ----微信---- */
+.jiaru{
+    width: 350px;
+    height: 428px;
+    float: left;
+    padding-top: 60px;
+}
+ .qq-weixin{
+  width: 500px;
+  height: 200px;
+  padding-top: 50px;
+  margin-left: 30px;
+  float: left;
+}
+.qq, .weixin{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+}
+.weixin{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 100px
+}
+.qq img{
+  width: 70px;
+  height: 70px;
+  margin: 15px
+}
+.weixin img{
+  width: 70px;
+  height: 70px;
+  margin: 15px
+}
+.QRcode{
+  width: 150px;
+  height: 150px;
+  background: #f0f0f0;
+  margin-top: 192px;
+  margin-left: 105px;
+  position: relative;
+}
+.QRcode img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+/* ----版权---- */
+.copyright{
+  width: 100%;
+  height: 80px;
+  background: #3c3c3c;
+}
+.copyright p{
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  line-height: 80px;
+}
+
+/* //上一页 */
+.page{
+  width: 30px;
+  height: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px
+}
+.page img{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+  
+/* 搜索框 */
+.search-box{
+  width: 500px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+.search-input{
+  width: 500px;
+  height: 40px;
+  border: 1px solid #bfbfbf ;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 2px 12px
+}
+.search-button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+   background: url(../images/search.png);
+    background-size: cover;
+
+}
+.search-button:hover{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+   background: url(../images/search2.png);
+    background-size: cover;
+
+}
+
+
+
+
+
+@media screen  and (max-width:960px) {
+  .body-top{
+      height:auto;
+    width: 384px
+  }
+  .aboutMe-logo-nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.author-logo {
+    display: none;
+}
+.introduce-nav {
+    margin-right: 45px;
+}
+.introduce {
+    /* width: 1200px; */
+    margin: -30px auto;
+    padding: 20px;
+    height: 1000px;
+    box-sizing: border-box;
+} 
+.classify {
+    width: 300px;
+    height: 300px;
+}
+    .introduce-nav {
+        float:left
+    }
+    .introduce-nav > ul > li {
+    float: left;
+    line-height: 70px;
+    font-family: MyriadPro;
+    margin-left: 34px;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+    .introduce {
+    width: 335px;
+}
+.introduceContent-title-box{
+    width: 174px;
+    margin: 0 auto;
+}
+.pageDown {
+    display:none
+}
+.introduceContent-classify {
+    width: 1200px;
+   display: block;
+}
+
+.hotWeb {
+    width: 100%;
+    margin: 538px auto 0 auto;
+    min-height: 200px;
+    padding: 7px 20px;
+    box-sizing: border-box;
+    background: #f3f3f3;
+}
+.hotWeb-item {
+    width: 287px;
+    height: 193px;
+    margin: 10px 10px;
+}
+.hotWeb-content {
+    width: 301px;
+    min-height: 1259px;
+    margin: 30px auto;
+}
+.hotweb-bg {
+    height: 80px;
+}
+.hotweb-bg img{
+    height: 100px;
+    width:700px;
+}
+.contact {
+    width: 418px;
+    min-height: 1019px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+    .contact-content {
+        width:490px;
+        height:289px;
+    }
+    .send-phone input {
+    width: 160px;
+    height: 35px;
+    border: none;
+    border-top: 1px #000 solid;
+    background: #f8f7f7;
+    margin-left: 46px;
+}
+    .send-phone p {
+    margin-left: 46px;
+}
+    .message {
+    width: 363px;
+    height: 120px;
+    border: none;
+    border-top: 1px #000 solid;
+    background: #f8f7f7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+    .send {
+    width: 2px;
+    height: 40px;
+    /* margin: 50px 0; */
+    margin: 50px auto;
+    margin-left: 146px;
+}
+
+
+
+
+
+
+
+}
+   /*    简历         简历         简历         简历     */
